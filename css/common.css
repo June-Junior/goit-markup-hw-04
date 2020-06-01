@@ -103,7 +103,7 @@ body {
   align-items: center;
   margin-left: auto;
 }
-.contacts__button {
+.contacts__list {
   display: flex;
   margin-right: 30px;
   font-family: Roboto;
@@ -113,15 +113,29 @@ body {
   line-height: 1.2;
   color: var(--main-font-color);
 }
-.contacts__button:last-child {
+.contacts__list:last-child {
   margin-right: 0;
 }
-.contacts__icon {
-  order: -1;
+.contacts__button {
+  display: flex;
+  color: var(--grey-icons);
+  background-color: var(--white-color);
+  border: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
   margin-right: 10px;
+  justify-content: center;
 }
-.contacts__icon:hover {
-  display: inline-block;
+.contacts__button:hover {
+  color: var(--text-hover-color);
+  cursor: pointer;
+}
+.contacts__svg {
+  display: inline-flex;
+  fill: currentColor;
+  width: 15px;
+  height: 15px;
 }
 /*скрыть элемент*/
 .is-hidden {

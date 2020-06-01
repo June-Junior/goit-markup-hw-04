@@ -214,6 +214,7 @@ font-family: 'Raleway', sans-serif;*/
   color: var(--grey-icons);
   background-color: var(--white-color);
   border-radius: 50%;
+  cursor: pointer;
 }
 .our-team__social-button:hover {
   color: var(--white-color);
@@ -242,6 +243,22 @@ font-family: 'Raleway', sans-serif;*/
 }
 .our-clients__link {
 }
-.our-clients__icon:hover {
-  background-color: var(--text-hover-color);
+.our-clients__button {
+  display: inline-flex;
+  width: 170px;
+  height: 90px;
+  color: var(--grey-icons);
+  background-color: var(--white-color);
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  justify-content: center;
+  cursor: pointer;
+}
+.our-clients__button:hover {
+  color: var(--text-hover-color);
+}
+.our-clients__svg {
+  fill: currentColor;
+  width: 55%;
+  height: 55%;
 }
