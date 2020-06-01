@@ -1,10 +1,10 @@
-/*main font color #757575 */
-/*secondary font color #212121 */
-/*text hover color #2196F3 */
-/*white color #FFFFFF */
-/*grey icons #AFB1B8 */
-/*big icons fill, our team fill #F5F4FA */
-/*footer color #2F303A */
+/*main-font-color #757575 */
+/*secondary-font-color #212121 */
+/*text-hover-color #2196F3 */
+/*white-color #FFFFFF */
+/*grey-icons #AFB1B8 */
+/*big-icons-fill-our-team-fill #F5F4FA */
+/*footer-color #2F303A */
 /*footer-text-gray rgba(255, 255, 255, 0.6) */
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Raleway', sans-serif;*/
@@ -17,6 +17,7 @@ font-family: 'Raleway', sans-serif;*/
   --footer-color: #2f303a;
   --footer-text-gray: rgba(255, 255, 255, 0.6);
   --big-icons-fill-our-team-fill: #f5f4fa;
+  --grey-icons: #afb1b8;
 }
 html {
   box-sizing: border-box;
@@ -272,6 +273,7 @@ a:focus {
   background-color: var(--text-hover-color);
   color: var(--white-color);
   border: none;
+  cursor: pointer;
 }
 .footer-subdivision__button::after {
   content: "";
