@@ -22,8 +22,7 @@ font-family: 'Raleway', sans-serif;*/
     url(../images/hero.jpg);
   text-align: center;
   outline: 1px solid black;
-}
-.hero__overlay {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .hero__button {
   width: 200px;
@@ -66,7 +65,29 @@ font-family: 'Raleway', sans-serif;*/
 .our-advantages__item:last-child {
   margin-right: 0;
 }
-.our-advantages__link {
+.our-advantages__item::before {
+  display: inline-flex;
+  content: "";
+  height: 120px;
+  width: 270px;
+  background-color: var(--big-icons-fill-our-team-fill);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: initial;
+}
+.our-advantages__item:nth-child(1)::before {
+  background-image: url(../images/antenna1.svg);
+}
+.our-advantages__item:nth-child(2)::before {
+  background-image: url(../images/clock1.svg);
+}
+.our-advantages__item:nth-child(3)::before {
+  background-image: url(../images/diagram1.svg);
+}
+.our-advantages__item:nth-child(4)::before {
+  background-image: url(../images/astronaut1.svg);
+}
+/*.our-advantages__link {
   display: flex;
   height: 120px;
   width: 270px;
@@ -82,7 +103,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 .our-advantages__icon:hover {
   fill: white;
-}
+}*/
 .our-advantages__heading {
   font-family: Roboto;
   font-style: normal;
